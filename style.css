@@ -1,0 +1,57 @@
+h1 {
+    color:rgb(236, 18, 29);
+    position: absolute;
+    top: 50%;
+  left: 50%;
+  transform: translate(-50%, -700%);
+    text-align: center;
+    }
+    h2{
+        font-style: italic;
+        text-align: center;
+    }
+    .menu{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 50%;
+      left: 50%;
+      transform: translate(-50%, -300%);
+    }
+    .grid{
+        background-color: cyan;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly
+    }
+    .grid img{
+        border: 3px solid black;
+        border-radius: 50px;
+    }
+    .item{
+        border-radius: 30px;
+        background-color: cyan;
+        width:300px;
+        font-style: italic;
+    }
+    .item {
+        position: relative;
+    }
+    
+    .item p{      
+        opacity: .5;
+        
+    }
+    .item:hover p{
+     opacity: 1;
+    }
+    
+    .item:hover img{
+        transform:scale(1.1) ;
+    }
+    a:link{
+        color:rgb(0, 255, 13);
+    }
+    a:visited{
+        color: rgb(0, 255, 85);
+    }
